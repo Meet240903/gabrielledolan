@@ -6,6 +6,7 @@
   position: absolute;
   width: 100%;
   padding: 20px;
+  z-index: 2;
 }
 
 .header-page-section-img {
@@ -105,17 +106,17 @@
     padding-top: 4rem;
     gap: 1rem;
   }
-  .header-page-section-link-main-menu-left-content img{
+  .header-page-section-link-main-menu-left-content img {
     height: 100px;
   }
-  .header-page-section-link-main-menu-right-inner-content h1{
+  .header-page-section-link-main-menu-right-inner-content h1 {
     font-size: 14px;
   }
-  .header-social-icons{
+  .header-social-icons {
     font-size: 16px;
     gap: 10px;
   }
-  .header-page-section-link-main-menu-right-inner-footer-content{
+  .header-page-section-link-main-menu-right-inner-footer-content {
     font-size: 12px;
   }
   .header-page-section-link-main-menu-content button {

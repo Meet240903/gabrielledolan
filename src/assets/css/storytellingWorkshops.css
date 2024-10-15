@@ -1,0 +1,170 @@
+.storytelling-workshops-page-section-container {
+  background-color: #ebece6;
+  padding: 3rem;
+  height: 100vh;
+}
+
+.storytelling-workshops-page-section-content {
+  max-width: 1200px;
+  margin: 0 auto !important;
+  align-items: center;
+}
+
+.storytelling-workshops-page-section-right-content img {
+  width: 100%;
+  height: 630px;
+}
+
+.storytelling-workshops-page-section-left-content h1 {
+  font-size: 90px;
+  font-weight: bold;
+  color: #ff3644;
+  font-family: "Playfair Display", serif;
+}
+
+.storytelling-workshops-page-section-left-inner-content h3 {
+  font-size: 40px;
+  font-family: "Playfair Display", serif;
+  color: #ff3644;
+  font-weight: bold;
+}
+
+.storytelling-workshops-page-section-left-inner-content p {
+  text-align: justify;
+}
+
+.storytelling-workshops-page-slider-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+.storytelling-workshops-page-slider-controls button {
+  border: none;
+  background-color: #ff3644;
+  color: #fff;
+  border-radius: 50%;
+  padding: 10px 15px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.storytelling-workshops-page-tracking {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 80px;
+  left: 0;
+}
+
+.tracking-dot {
+  width: 60px;
+  height: 3px;
+  background-color: #ccc;
+  cursor: pointer;
+  border-right: 2px solid #ff3644;
+  transition: background-color 0.3s ease;
+}
+
+.tracking-dot.active {
+  background-color: #ff3644;
+}
+
+.storytelling-workshops-page-tracking p {
+  color: #ff3644;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.storytelling-workshops-last-slide p {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Playfair Display", serif;
+}
+
+.storytelling-workshops-last-slide div {
+  border-right: 1px solid #000;
+  padding: 0 2rem;
+}
+
+.storytelling-workshops-last-slide small {
+  font-style: italic;
+}
+
+/* General Mobile Styles */
+@media (max-width: 768px) {
+  .storytelling-workshops-page-section-container {
+    padding: 5rem 1rem 0 1rem;
+    height: auto;
+  }
+
+  .storytelling-workshops-page-section-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .storytelling-workshops-page-section-right-content img {
+    height: auto;
+  }
+
+  /* Adjusting the left content text sizes for mobile */
+  .storytelling-workshops-page-section-left-content h1 {
+    font-size: 40px;
+    margin-bottom: 1rem;
+  }
+
+  .storytelling-workshops-page-section-left-inner-content h3 {
+    font-size: 24px;
+    margin-bottom: 1rem;
+  }
+
+  .storytelling-workshops-page-section-left-inner-content p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+  }
+
+  .storytelling-workshops-page-slider-controls {
+    position: sticky;
+    top: 20px;
+    left: 10px;
+  }
+  .storytelling-workshops-page-slider-controls button {
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+
+  /* Show all tracking dots and make them smaller */
+  .tracking-dot {
+    width: 40px;
+    height: 2px;
+  }
+
+  .storytelling-workshops-page-tracking p {
+    font-size: 14px;
+  }
+
+  .storytelling-workshops-page-tracking {
+    display: none;
+  }
+
+  /* Adjusting content layout for the last slide */
+  .storytelling-workshops-last-slide {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .storytelling-workshops-last-slide div {
+    border-right: none;
+    padding: 1rem 0;
+  }
+
+  .storytelling-workshops-last-slide p {
+    font-size: 16px;
+  }
+}

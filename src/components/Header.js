@@ -4,14 +4,29 @@ import '../assets/css/header.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faClose } from '@fortawesome/free-solid-svg-icons'
 import { faFacebook, faInstagram, faLinkedin, faXTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons'
+import { Link } from 'react-router-dom'
 
-const Header = () => {
+const Header = ({ showLogo }) => {
     const [headerMenu, showHeaderMenu] = useState(false)
+    const headerLinks = [
+        { title: "Home", slugs: "" },
+        { title: "Storytelling Workshops", slugs: "storytelling-workshops" },
+        { title: "Conference Speaking", slugs: "" },
+        { title: "Thought Leadership", slugs: "" },
+        { title: "About", slugs: "" },
+        { title: "Books", slugs: "" },
+        { title: "Resources", slugs: "" },
+        { title: "7 Day Storytelling Starter Kit", slugs: "" },
+    ]
     return (
         <>
             <div className='header-page-section-container'>
-                <div className='header-page-section-img'>
-                    <img src={headerLogo} className='img-fluid' alt='header-logo' />
+                <div className='header-page-section-img' style={{ backgroundColor: showLogo ?? 'transparent' }}>
+                    {
+                        showLogo && <Link to='/'>
+                            <img src={headerLogo} className='img-fluid' alt='header-logo' />
+                        </Link>
+                    }
                 </div>
                 <div className='header-page-left-section'>
                     <button onClick={() => showHeaderMenu(!headerMenu)}>
@@ -27,14 +42,15 @@ const Header = () => {
                         </div>
                         <div className='col-md-5 header-page-section-link-main-menu-right-content'>
                             <div className='header-page-section-link-main-menu-right-inner-content'>
-                                <h1>Home</h1>
-                                <h1>Storytelling Workshops</h1>
-                                <h1>Conference Speaking</h1>
-                                <h1>Thought Leadership</h1>
-                                <h1>About</h1>
-                                <h1>Books</h1>
-                                <h1>Resources</h1>
-                                <h1>7 Day Storytelling Starter Kit</h1>
+                                {
+                                    headerLinks?.map((data, index) => (
+                                        <div key={index}>
+                                            <Link to={`/${data?.slugs}`} style={{ textDecoration: 'none' }} onClick={() => showHeaderMenu(false)}>
+                                                <h1>{data?.title}</h1>
+                                            </Link>
+                                        </div>
+                                    ))
+                                }
                             </div>
                             <div className='header-page-section-link-main-menu-right-inner-footer-content'>
                                 <div className='header-social-icons'>

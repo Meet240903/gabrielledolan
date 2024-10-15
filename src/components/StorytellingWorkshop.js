@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import sectionImg1 from '../assets/images/storytellingWorkShopImgs/sectionImg1.jpg'
 import sectionImg2 from '../assets/images/storytellingWorkShopImgs/sectionImg2.jpg'
 import sectionImg3 from '../assets/images/storytellingWorkShopImgs/sectionImg3.jpg'

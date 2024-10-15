@@ -1,9 +1,11 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes, useParams } from "react-router-dom";
 import Header from "./components/Header";
 import Home from "./components/Home";
-import StorytellingWorkshop from "./components/StorytellingWorkshop";
+import CommonPage from "./components/CommonPage";
+import StarterKit from "./components/StarterKit";
 
 function App() {
+
   return (
     <>
       <BrowserRouter>
@@ -14,10 +16,16 @@ function App() {
               <Home />
             </>
           } />
-          <Route exact path="storytelling-workshops" element={
+          <Route exact path="/:slugs" element={
             <>
               <Header showLogo={true} />
-              <StorytellingWorkshop />
+              <CommonPage />
+            </>
+          } />
+          <Route exact path="/starterkit" element={
+            <>
+              <Header showLogo={true} />
+              <StarterKit />
             </>
           } />
         </Routes>

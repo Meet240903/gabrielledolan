@@ -1,0 +1,72 @@
+.starterkit-page-section-container {
+  background-color: #ebece6;
+  padding: 3rem;
+}
+
+.starterkit-page-section-content {
+  max-width: 1300px;
+  margin: 0 auto !important;
+  align-items: center;
+}
+
+.starterkit-page-section-left-content h1 {
+  color: #ff3644;
+  font-size: 90px;
+  font-weight: bold;
+  font-family: "Playfair Display", serif;
+}
+
+.starterkit-page-section-left-content h2 {
+  color: #ff3644;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Playfair Display", serif;
+}
+
+.starterkit-page-section-left-inner-content {
+  max-width: 400px;
+  margin: 2rem 0 0 auto;
+}
+
+.starter-kit-form {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+}
+
+.starter-kit-form input {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #ff3644;
+  padding: 10px;
+  margin: 1rem 0;
+}
+
+.starter-kit-form button {
+  width: fit-content;
+  padding: 5px 10px;
+  border: none;
+  background-color: #ff3644;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: "Playfair Display", serif;
+}
+
+.starterkit-page-section-right-content img {
+  height: 100vh;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .starterkit-page-section-container {
+    padding: 5rem 0;
+  }
+  .starterkit-page-section-right-content img {
+    height: 500px;
+  }
+}

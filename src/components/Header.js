@@ -5,19 +5,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faClose } from '@fortawesome/free-solid-svg-icons'
 import { faFacebook, faInstagram, faLinkedin, faXTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons'
 import { Link } from 'react-router-dom'
+import headerData from '../data/HeaderData'
 
 const Header = ({ showLogo }) => {
     const [headerMenu, showHeaderMenu] = useState(false)
-    const headerLinks = [
-        { title: "Home", slugs: "" },
-        { title: "Storytelling Workshops", slugs: "storytelling-workshops" },
-        { title: "Conference Speaking", slugs: "" },
-        { title: "Thought Leadership", slugs: "" },
-        { title: "About", slugs: "" },
-        { title: "Books", slugs: "" },
-        { title: "Resources", slugs: "" },
-        { title: "7 Day Storytelling Starter Kit", slugs: "" },
-    ]
     return (
         <>
             <div className='header-page-section-container'>
@@ -43,7 +34,7 @@ const Header = ({ showLogo }) => {
                         <div className='col-md-5 header-page-section-link-main-menu-right-content'>
                             <div className='header-page-section-link-main-menu-right-inner-content'>
                                 {
-                                    headerLinks?.map((data, index) => (
+                                    headerData?.map((data, index) => (
                                         <div key={index}>
                                             <Link to={`/${data?.slugs}`} style={{ textDecoration: 'none' }} onClick={() => showHeaderMenu(false)}>
                                                 <h1>{data?.title}</h1>
@@ -51,6 +42,12 @@ const Header = ({ showLogo }) => {
                                         </div>
                                     ))
                                 }
+                                <Link to='' style={{ textDecoration: 'none' }} onClick={() => showHeaderMenu(false)}>
+                                    <h1>Resources</h1>
+                                </Link>
+                                <Link to='/starterkit' style={{ textDecoration: 'none' }} onClick={() => showHeaderMenu(false)}>
+                                    <h1>7 Day Storytelling Starter Kit</h1>
+                                </Link>
                             </div>
                             <div className='header-page-section-link-main-menu-right-inner-footer-content'>
                                 <div className='header-social-icons'>

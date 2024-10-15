@@ -26,7 +26,7 @@ const StorytellingWorkshop = ({ sectionData }) => {
                     padding: sectionData[currentSlide]?.paddingY ? '10rem 0' : '',
                 }}
             >
-                <div className={`storytelling-workshops-page-section-left-content ${sectionData[currentSlide]?.sectionImg || !sectionData[currentSlide]?.clientSection ? 'col-md-6' : 'col-md-12'}`}>
+                <div className={`storytelling-workshops-page-section-left-content ${sectionData[currentSlide]?.sectionImg && !sectionData[currentSlide]?.clientSection ? 'col-md-6' : 'col-md-12'}`}>
 
                     {/* about section client slide content */}
                     {

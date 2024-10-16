@@ -3,7 +3,8 @@
   align-items: center;
   justify-content: space-between;
   background-color: transparent;
-  position: absolute;
+  position: fixed;
+  top: 0;
   width: 100%;
   padding: 20px;
   z-index: 2;
@@ -36,10 +37,17 @@
 
 .header-page-section-link-main-menu {
   background-color: #ff3644;
-  position: absolute;
+  position: fixed;
   width: 100%;
   height: 100%;
   z-index: 999;
+  transition: right 0.5s ease-in-out;
+  top: 0;
+  right: -100%;
+}
+
+.menu-open {
+  right: 0;
 }
 
 .header-page-section-link-main-menu-content {

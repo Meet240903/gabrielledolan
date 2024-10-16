@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import Home from "./components/Home";
 import CommonPage from "./components/CommonPage";
 import StarterKit from "./components/StarterKit";
+import Resources from "./components/Resources";
 
 function App() {
 
@@ -26,6 +27,12 @@ function App() {
             <>
               <Header showLogo={true} />
               <StarterKit />
+            </>
+          } />
+          <Route exact path="/resources" element={
+            <>
+              <Header showLogo={true} />
+              <Resources />
             </>
           } />
         </Routes>

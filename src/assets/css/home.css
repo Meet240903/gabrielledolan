@@ -136,10 +136,10 @@
     top: 10px;
     width: fit-content;
   }
-  .home-page-counter-box{
+  .home-page-counter-box {
     padding: 3px 12px;
   }
-  .home-page-counter-box p{
+  .home-page-counter-box p {
     font-size: 14px;
   }
   .home-page-section-left-absolute-content {
@@ -158,12 +158,12 @@
     width: 100%;
     height: 500px;
   }
-  .home-page-slider-controls{
+  .home-page-slider-controls {
     top: 640px;
     left: 10px;
   }
-  .home-page-slider-controls button{
+  .home-page-slider-controls button {
     padding: 5px 10px;
-  font-size: 12px;
+    font-size: 12px;
   }
 }

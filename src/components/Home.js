@@ -7,6 +7,7 @@ import sectionImg3 from '../assets/images/homePageImgs/sectionImg3.jpg'
 import sectionImg4 from '../assets/images/homePageImgs/sectionImg4.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGreaterThan, faLessThan } from '@fortawesome/free-solid-svg-icons'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
     const sliderData = [
@@ -14,21 +15,25 @@ const Home = () => {
             sectionImg: sectionImg1,
             title: "Storytelling Workshops",
             content: "Effective communication is one of the keys to success. The ability to share your ideas or instructions in an impactful way is vital for leaders and executives alike...",
+            slugs: "storytelling-workshops",
         },
         {
             sectionImg: sectionImg2,
             title: "Conference Speaking",
             content: "Immersing yourself in the understanding and study of communication doesn't automatically make you an engaging and inspiring speaker, but it certainly...",
+            slugs: "conference-speaking",
         },
         {
             sectionImg: sectionImg3,
             title: "Thought Leadership",
             content: "There can be a point in a career where your ideas, skills and experience combine to elevate you above your peers. You don't have to be old and wise...",
+            slugs: "thought-leadership",
         },
         {
             sectionImg: sectionImg4,
             title: "New Book Release",
             content: "Magnetic Stories - Your brand is the stories people share about you when you’re not in the room, and it’s these brand stories that determine if people buy from you, employ you, work for you or invest in you....",
+            slugs: "books",
         },
     ]
 
@@ -68,7 +73,9 @@ const Home = () => {
                             <h1>{sliderData[currentSlide].title}</h1>
                             <p>{sliderData[currentSlide].content}</p>
                             <div className='home-page-section-left-absolute-content-button'>
-                                <button>read more</button>
+                                <Link to={`/${sliderData[currentSlide]?.slugs}`}>
+                                    <button>read more</button>
+                                </Link>
                             </div>
                         </div>
                         <div className='home-page-slider-controls'>

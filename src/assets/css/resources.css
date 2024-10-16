@@ -153,6 +153,12 @@
   .resources-page-section-content {
     grid-template-columns: 1fr;
   }
+  .resources-page-section-title{
+    margin-top: 4rem;
+  }
+  .resources-page-section-title h1{
+    font-size: 30px;
+  }
   .resources-page-section-container {
     padding: 6rem 1rem;
   }

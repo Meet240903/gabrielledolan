@@ -4,6 +4,7 @@ import Home from "./components/Home";
 import CommonPage from "./components/CommonPage";
 import StarterKit from "./components/StarterKit";
 import Resources from "./components/Resources";
+import ResourcesDetails from "./components/ResourcesDetails";
 
 function App() {
 
@@ -33,6 +34,12 @@ function App() {
             <>
               <Header showLogo={true} />
               <Resources />
+            </>
+          } />
+          <Route exact path="/resources-details/:slugs" element={
+            <>
+              <Header showLogo={true} />
+              <ResourcesDetails />
             </>
           } />
         </Routes>

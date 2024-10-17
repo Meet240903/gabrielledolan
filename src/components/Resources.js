@@ -7,7 +7,7 @@ import resourcesData from '../data/ResourcesData';
 import { Link } from 'react-router-dom';
 
 const Resources = () => {
-    const [sidebar, showSidebar] = useState(false);
+    const [sidebar, showSidebar] = useState(true);
     const sidebarData = [
         { title: "All" },
         { title: "Blog" },
@@ -50,15 +50,17 @@ const Resources = () => {
                     {
                         filteredData.map((data, index) => (
                             <div className='resources-page-section-content-boxs' key={index}>
-                                <div className='resources-page-section-content-boxs-top-section'>
-                                    <button><FontAwesomeIcon icon={faPlus} /></button>
-                                    <small>{data.date}</small>
-                                </div>
-                                <h2>{data.title}</h2>
-                                <p>{data.type}</p>
-                                <div className='resources-page-section-content-boxs-img'>
-                                    <img src={data.sectionImg} className='img-fluid' alt='section-img' />
-                                </div>
+                                <Link to={`/resources-details/${data?.slugs}`} style={{ textDecoration: 'none' }}>
+                                    <div className='resources-page-section-content-boxs-top-section'>
+                                        <button><FontAwesomeIcon icon={faPlus} /></button>
+                                        <small style={{ color: '#000' }}>{data.date}</small>
+                                    </div>
+                                    <h2>{data.title}</h2>
+                                    <p style={{ color: '#000' }}>{data.type}</p>
+                                    <div className='resources-page-section-content-boxs-img'>
+                                        <img src={data.sectionImg} className='img-fluid' alt='section-img' />
+                                    </div>
+                                </Link>
                             </div>
                         ))
                     }

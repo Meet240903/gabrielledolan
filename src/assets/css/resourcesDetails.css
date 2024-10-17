@@ -1,0 +1,28 @@
+.resources-details-page-section-container {
+  background-color: #ebece6;
+  padding: 7rem 0;
+  height: 100vh;
+}
+
+.resources-details-page-section-content {
+  max-width: 1200px;
+  margin: 0 auto !important;
+}
+
+.resources-details-page-section-left-content small {
+  font-style: italic;
+}
+
+.resources-details-page-section-left-content h1 {
+  font-size: 70px;
+  color: #ff3644;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+}
+
+.resources-details-page-section-left-content p {
+  font-size: 20px;
+  font-weight: bold;
+  color: gray;
+  font-family: "Playfair Display", serif;
+}

@@ -83,6 +83,10 @@ const resourcesData = [
         title: "Where the hell is my makeup?",
         type: "Blog",
         slugs: "resource-1",
+        detailsContentData: [
+            { content: "Recently I was conducting a virtual storytelling session for a US client. I was working from our holiday property in Bermagui at the time which is well set up for virtual training. It has extremely stable satellite internet, an uninterrupted power supply unit and good natural light. I also have additional professional stage lighting that I keep up there when the natural light is not adequate." },
+            { content: "All I need to bring with me is my professional headset mic, a good shirt (as I don’t think my gardening gear will cut it) and makeup. I travel a lot, so I have a separate travel makeup bag ready to go with all the essentials I need." },
+        ]
     },
     {
         sectionImg: sectionImg2,
@@ -90,6 +94,10 @@ const resourcesData = [
         title: "Leaving a Legacy",
         type: "Blog",
         slugs: "resource-2",
+        detailsContentData: [
+            { content: "Recently I was conducting a virtual storytelling session for a US client. I was working from our holiday property in Bermagui at the time which is well set up for virtual training. It has extremely stable satellite internet, an uninterrupted power supply unit and good natural light. I also have additional professional stage lighting that I keep up there when the natural light is not adequate." },
+            { content: "All I need to bring with me is my professional headset mic, a good shirt (as I don’t think my gardening gear will cut it) and makeup. I travel a lot, so I have a separate travel makeup bag ready to go with all the essentials I need." },
+        ]
     },
     {
         sectionImg: sectionImg3,
@@ -97,6 +105,10 @@ const resourcesData = [
         title: "The Pros and Cons of Popularity",
         type: "Blog",
         slugs: "resource-3",
+        detailsContentData: [
+            { content: "Recently I was conducting a virtual storytelling session for a US client. I was working from our holiday property in Bermagui at the time which is well set up for virtual training. It has extremely stable satellite internet, an uninterrupted power supply unit and good natural light. I also have additional professional stage lighting that I keep up there when the natural light is not adequate." },
+            { content: "All I need to bring with me is my professional headset mic, a good shirt (as I don’t think my gardening gear will cut it) and makeup. I travel a lot, so I have a separate travel makeup bag ready to go with all the essentials I need." },
+        ]
     },
     {
         sectionImg: sectionImg4,
@@ -104,6 +116,10 @@ const resourcesData = [
         title: "Memory Lane – How Old Photos Can Lead to Great Stories",
         type: "Blog",
         slugs: "resource-4",
+        detailsContentData: [
+            { content: "Recently I was conducting a virtual storytelling session for a US client. I was working from our holiday property in Bermagui at the time which is well set up for virtual training. It has extremely stable satellite internet, an uninterrupted power supply unit and good natural light. I also have additional professional stage lighting that I keep up there when the natural light is not adequate." },
+            { content: "All I need to bring with me is my professional headset mic, a good shirt (as I don’t think my gardening gear will cut it) and makeup. I travel a lot, so I have a separate travel makeup bag ready to go with all the essentials I need." },
+        ]
     },
     {
         sectionImg: sectionImg5,
@@ -111,6 +127,10 @@ const resourcesData = [
         title: "A Brilliant Example of a Magnetic Brand Story",
         type: "Blog",
         slugs: "resource-5",
+        detailsContentData: [
+            { content: "Recently I was conducting a virtual storytelling session for a US client. I was working from our holiday property in Bermagui at the time which is well set up for virtual training. It has extremely stable satellite internet, an uninterrupted power supply unit and good natural light. I also have additional professional stage lighting that I keep up there when the natural light is not adequate." },
+            { content: "All I need to bring with me is my professional headset mic, a good shirt (as I don’t think my gardening gear will cut it) and makeup. I travel a lot, so I have a separate travel makeup bag ready to go with all the essentials I need." },
+        ]
     },
     {
         sectionImg: sectionImg6,
@@ -118,6 +138,10 @@ const resourcesData = [
         title: "An Important Reminder to Be Present",
         type: "Blog",
         slugs: "resource-6",
+        detailsContentData: [
+            { content: "Recently I was conducting a virtual storytelling session for a US client. I was working from our holiday property in Bermagui at the time which is well set up for virtual training. It has extremely stable satellite internet, an uninterrupted power supply unit and good natural light. I also have additional professional stage lighting that I keep up there when the natural light is not adequate." },
+            { content: "All I need to bring with me is my professional headset mic, a good shirt (as I don’t think my gardening gear will cut it) and makeup. I travel a lot, so I have a separate travel makeup bag ready to go with all the essentials I need." },
+        ]
     },
     {
         sectionImg: sectionImg7,
@@ -125,6 +149,10 @@ const resourcesData = [
         title: "For crying out loud, can we please stop this!",
         type: "Blog",
         slugs: "resource-7",
+        detailsContentData: [
+            { content: "Recently I was conducting a virtual storytelling session for a US client. I was working from our holiday property in Bermagui at the time which is well set up for virtual training. It has extremely stable satellite internet, an uninterrupted power supply unit and good natural light. I also have additional professional stage lighting that I keep up there when the natural light is not adequate." },
+            { content: "All I need to bring with me is my professional headset mic, a good shirt (as I don’t think my gardening gear will cut it) and makeup. I travel a lot, so I have a separate travel makeup bag ready to go with all the essentials I need." },
+        ]
     },
     {
         sectionImg: sectionImg8,
@@ -132,6 +160,10 @@ const resourcesData = [
         title: "Kamala Harris DNC Speech – A Masterclass in Storytelling",
         type: "Blog",
         slugs: "resource-8",
+        detailsContentData: [
+            { content: "Recently I was conducting a virtual storytelling session for a US client. I was working from our holiday property in Bermagui at the time which is well set up for virtual training. It has extremely stable satellite internet, an uninterrupted power supply unit and good natural light. I also have additional professional stage lighting that I keep up there when the natural light is not adequate." },
+            { content: "All I need to bring with me is my professional headset mic, a good shirt (as I don’t think my gardening gear will cut it) and makeup. I travel a lot, so I have a separate travel makeup bag ready to go with all the essentials I need." },
+        ]
     },
     {
         sectionImg: sectionImg9,
@@ -139,6 +171,10 @@ const resourcesData = [
         title: "Don’t Let Fear in the Driver’s Seat",
         type: "Blog",
         slugs: "resource-9",
+        detailsContentData: [
+            { content: "Recently I was conducting a virtual storytelling session for a US client. I was working from our holiday property in Bermagui at the time which is well set up for virtual training. It has extremely stable satellite internet, an uninterrupted power supply unit and good natural light. I also have additional professional stage lighting that I keep up there when the natural light is not adequate." },
+            { content: "All I need to bring with me is my professional headset mic, a good shirt (as I don’t think my gardening gear will cut it) and makeup. I travel a lot, so I have a separate travel makeup bag ready to go with all the essentials I need." },
+        ]
     },
     {
         sectionImg: sectionImg10,
@@ -146,6 +182,10 @@ const resourcesData = [
         title: "The Power of the Unexpected… Continued",
         type: "Blog",
         slugs: "resource-10",
+        detailsContentData: [
+            { content: "Recently I was conducting a virtual storytelling session for a US client. I was working from our holiday property in Bermagui at the time which is well set up for virtual training. It has extremely stable satellite internet, an uninterrupted power supply unit and good natural light. I also have additional professional stage lighting that I keep up there when the natural light is not adequate." },
+            { content: "All I need to bring with me is my professional headset mic, a good shirt (as I don’t think my gardening gear will cut it) and makeup. I travel a lot, so I have a separate travel makeup bag ready to go with all the essentials I need." },
+        ]
     },
     {
         sectionImg: sectionImg11,
@@ -153,6 +193,10 @@ const resourcesData = [
         title: "Embrace your inner Drew Barrymore",
         type: "Blog",
         slugs: "resource-11",
+        detailsContentData: [
+            { content: "Recently I was conducting a virtual storytelling session for a US client. I was working from our holiday property in Bermagui at the time which is well set up for virtual training. It has extremely stable satellite internet, an uninterrupted power supply unit and good natural light. I also have additional professional stage lighting that I keep up there when the natural light is not adequate." },
+            { content: "All I need to bring with me is my professional headset mic, a good shirt (as I don’t think my gardening gear will cut it) and makeup. I travel a lot, so I have a separate travel makeup bag ready to go with all the essentials I need." },
+        ]
     },
     {
         sectionImg: sectionImg12,
@@ -160,6 +204,10 @@ const resourcesData = [
         title: "The Devil Wears Prada – Talk About Your Goals",
         type: "Blog",
         slugs: "resource-12",
+        detailsContentData: [
+            { content: "Recently I was conducting a virtual storytelling session for a US client. I was working from our holiday property in Bermagui at the time which is well set up for virtual training. It has extremely stable satellite internet, an uninterrupted power supply unit and good natural light. I also have additional professional stage lighting that I keep up there when the natural light is not adequate." },
+            { content: "All I need to bring with me is my professional headset mic, a good shirt (as I don’t think my gardening gear will cut it) and makeup. I travel a lot, so I have a separate travel makeup bag ready to go with all the essentials I need." },
+        ]
     },
     {
         sectionImg: publishedArticlesImgssectionImg1,
@@ -167,6 +215,10 @@ const resourcesData = [
         title: "The key to finding your corporate urban myths – CEO World Magazine",
         type: "Published Articles",
         slugs: "resource-13",
+        detailsContentData: [
+            { content: "Recently I was conducting a virtual storytelling session for a US client. I was working from our holiday property in Bermagui at the time which is well set up for virtual training. It has extremely stable satellite internet, an uninterrupted power supply unit and good natural light. I also have additional professional stage lighting that I keep up there when the natural light is not adequate." },
+            { content: "All I need to bring with me is my professional headset mic, a good shirt (as I don’t think my gardening gear will cut it) and makeup. I travel a lot, so I have a separate travel makeup bag ready to go with all the essentials I need." },
+        ]
     },
     {
         sectionImg: publishedArticlesImgssectionImg2,
@@ -174,6 +226,10 @@ const resourcesData = [
         title: "Are you sitting comfortably? Inside FMCG",
         type: "Published Articles",
         slugs: "resource-14",
+        detailsContentData: [
+            { content: "Recently I was conducting a virtual storytelling session for a US client. I was working from our holiday property in Bermagui at the time which is well set up for virtual training. It has extremely stable satellite internet, an uninterrupted power supply unit and good natural light. I also have additional professional stage lighting that I keep up there when the natural light is not adequate." },
+            { content: "All I need to bring with me is my professional headset mic, a good shirt (as I don’t think my gardening gear will cut it) and makeup. I travel a lot, so I have a separate travel makeup bag ready to go with all the essentials I need." },
+        ]
     },
     {
         sectionImg: publishedArticlesImgssectionImg3,
@@ -181,6 +237,10 @@ const resourcesData = [
         title: "Brand storytelling lessons from Singapore’s iconic Fullerton hotel – CMO Magazine",
         type: "Published Articles",
         slugs: "resource-15",
+        detailsContentData: [
+            { content: "Recently I was conducting a virtual storytelling session for a US client. I was working from our holiday property in Bermagui at the time which is well set up for virtual training. It has extremely stable satellite internet, an uninterrupted power supply unit and good natural light. I also have additional professional stage lighting that I keep up there when the natural light is not adequate." },
+            { content: "All I need to bring with me is my professional headset mic, a good shirt (as I don’t think my gardening gear will cut it) and makeup. I travel a lot, so I have a separate travel makeup bag ready to go with all the essentials I need." },
+        ]
     },
     {
         sectionImg: publishedArticlesImgssectionImg4,
@@ -188,6 +248,10 @@ const resourcesData = [
         title: "The power of the story – NZ Business Magazine",
         type: "Published Articles",
         slugs: "resource-16",
+        detailsContentData: [
+            { content: "Recently I was conducting a virtual storytelling session for a US client. I was working from our holiday property in Bermagui at the time which is well set up for virtual training. It has extremely stable satellite internet, an uninterrupted power supply unit and good natural light. I also have additional professional stage lighting that I keep up there when the natural light is not adequate." },
+            { content: "All I need to bring with me is my professional headset mic, a good shirt (as I don’t think my gardening gear will cut it) and makeup. I travel a lot, so I have a separate travel makeup bag ready to go with all the essentials I need." },
+        ]
     },
     {
         sectionImg: publishedArticlesImgssectionImg5,
@@ -195,6 +259,10 @@ const resourcesData = [
         title: "Every business has a story. Here’s why you should tell it – Inside Retail",
         type: "Published Articles",
         slugs: "resource-17",
+        detailsContentData: [
+            { content: "Recently I was conducting a virtual storytelling session for a US client. I was working from our holiday property in Bermagui at the time which is well set up for virtual training. It has extremely stable satellite internet, an uninterrupted power supply unit and good natural light. I also have additional professional stage lighting that I keep up there when the natural light is not adequate." },
+            { content: "All I need to bring with me is my professional headset mic, a good shirt (as I don’t think my gardening gear will cut it) and makeup. I travel a lot, so I have a separate travel makeup bag ready to go with all the essentials I need." },
+        ]
     },
     {
         sectionImg: publishedArticlesImgssectionImg6,
@@ -202,6 +270,10 @@ const resourcesData = [
         title: "The five types of brand stories you need to tell – Business Women Media",
         type: "Published Articles",
         slugs: "resource-18",
+        detailsContentData: [
+            { content: "Recently I was conducting a virtual storytelling session for a US client. I was working from our holiday property in Bermagui at the time which is well set up for virtual training. It has extremely stable satellite internet, an uninterrupted power supply unit and good natural light. I also have additional professional stage lighting that I keep up there when the natural light is not adequate." },
+            { content: "All I need to bring with me is my professional headset mic, a good shirt (as I don’t think my gardening gear will cut it) and makeup. I travel a lot, so I have a separate travel makeup bag ready to go with all the essentials I need." },
+        ]
     },
     {
         sectionImg: publishedArticlesImgssectionImg7,
@@ -209,6 +281,10 @@ const resourcesData = [
         title: "Australian Financial Review – Interview by Edmund Tadros",
         type: "Published Articles",
         slugs: "resource-19",
+        detailsContentData: [
+            { content: "Recently I was conducting a virtual storytelling session for a US client. I was working from our holiday property in Bermagui at the time which is well set up for virtual training. It has extremely stable satellite internet, an uninterrupted power supply unit and good natural light. I also have additional professional stage lighting that I keep up there when the natural light is not adequate." },
+            { content: "All I need to bring with me is my professional headset mic, a good shirt (as I don’t think my gardening gear will cut it) and makeup. I travel a lot, so I have a separate travel makeup bag ready to go with all the essentials I need." },
+        ]
     },
     {
         sectionImg: publishedArticlesImgssectionImg8,
@@ -216,6 +292,10 @@ const resourcesData = [
         title: "How to use storytelling in your business and career – Women’s Agenda",
         type: "Published Articles",
         slugs: "resource-20",
+        detailsContentData: [
+            { content: "Recently I was conducting a virtual storytelling session for a US client. I was working from our holiday property in Bermagui at the time which is well set up for virtual training. It has extremely stable satellite internet, an uninterrupted power supply unit and good natural light. I also have additional professional stage lighting that I keep up there when the natural light is not adequate." },
+            { content: "All I need to bring with me is my professional headset mic, a good shirt (as I don’t think my gardening gear will cut it) and makeup. I travel a lot, so I have a separate travel makeup bag ready to go with all the essentials I need." },
+        ]
     },
     {
         sectionImg: publishedArticlesImgssectionImg9,
@@ -223,6 +303,10 @@ const resourcesData = [
         title: "Five Ways To Share Your Brand Stories – B & T Magazine",
         type: "Published Articles",
         slugs: "resource-21",
+        detailsContentData: [
+            { content: "Recently I was conducting a virtual storytelling session for a US client. I was working from our holiday property in Bermagui at the time which is well set up for virtual training. It has extremely stable satellite internet, an uninterrupted power supply unit and good natural light. I also have additional professional stage lighting that I keep up there when the natural light is not adequate." },
+            { content: "All I need to bring with me is my professional headset mic, a good shirt (as I don’t think my gardening gear will cut it) and makeup. I travel a lot, so I have a separate travel makeup bag ready to go with all the essentials I need." },
+        ]
     },
     {
         sectionImg: publishedArticlesImgssectionImg10,
@@ -230,6 +314,10 @@ const resourcesData = [
         title: "Want to attract top talent? Share your purpose stories. – CEO World Magazine",
         type: "Published Articles",
         slugs: "resource-22",
+        detailsContentData: [
+            { content: "Recently I was conducting a virtual storytelling session for a US client. I was working from our holiday property in Bermagui at the time which is well set up for virtual training. It has extremely stable satellite internet, an uninterrupted power supply unit and good natural light. I also have additional professional stage lighting that I keep up there when the natural light is not adequate." },
+            { content: "All I need to bring with me is my professional headset mic, a good shirt (as I don’t think my gardening gear will cut it) and makeup. I travel a lot, so I have a separate travel makeup bag ready to go with all the essentials I need." },
+        ]
     },
     {
         sectionImg: publishedArticlesImgssectionImg11,
@@ -237,6 +325,10 @@ const resourcesData = [
         title: "AFR Magazine – Career Tip 2",
         type: "Published Articles",
         slugs: "resource-23",
+        detailsContentData: [
+            { content: "Recently I was conducting a virtual storytelling session for a US client. I was working from our holiday property in Bermagui at the time which is well set up for virtual training. It has extremely stable satellite internet, an uninterrupted power supply unit and good natural light. I also have additional professional stage lighting that I keep up there when the natural light is not adequate." },
+            { content: "All I need to bring with me is my professional headset mic, a good shirt (as I don’t think my gardening gear will cut it) and makeup. I travel a lot, so I have a separate travel makeup bag ready to go with all the essentials I need." },
+        ]
     },
     {
         sectionImg: publishedArticlesImgssectionImg12,
@@ -244,6 +336,10 @@ const resourcesData = [
         title: "Why the pandemic has made it more important than ever to tell your brand’s story – Smart Company",
         type: "Published Articles",
         slugs: "resource-24",
+        detailsContentData: [
+            { content: "Recently I was conducting a virtual storytelling session for a US client. I was working from our holiday property in Bermagui at the time which is well set up for virtual training. It has extremely stable satellite internet, an uninterrupted power supply unit and good natural light. I also have additional professional stage lighting that I keep up there when the natural light is not adequate." },
+            { content: "All I need to bring with me is my professional headset mic, a good shirt (as I don’t think my gardening gear will cut it) and makeup. I travel a lot, so I have a separate travel makeup bag ready to go with all the essentials I need." },
+        ]
     },
     {
         sectionImg: programsWorkshopsImgssectionImg1,
@@ -251,6 +347,10 @@ const resourcesData = [
         title: "Did someone say New York?",
         type: "Programs & Workshops",
         slugs: "resource-25",
+        detailsContentData: [
+            { content: "Recently I was conducting a virtual storytelling session for a US client. I was working from our holiday property in Bermagui at the time which is well set up for virtual training. It has extremely stable satellite internet, an uninterrupted power supply unit and good natural light. I also have additional professional stage lighting that I keep up there when the natural light is not adequate." },
+            { content: "All I need to bring with me is my professional headset mic, a good shirt (as I don’t think my gardening gear will cut it) and makeup. I travel a lot, so I have a separate travel makeup bag ready to go with all the essentials I need." },
+        ]
     },
     {
         sectionImg: programsWorkshopsImgssectionImg2,
@@ -258,6 +358,10 @@ const resourcesData = [
         title: "Final Thought Leadership Intensive – This is a genuine closing down sale",
         type: "Programs & Workshops",
         slugs: "resource-26",
+        detailsContentData: [
+            { content: "Recently I was conducting a virtual storytelling session for a US client. I was working from our holiday property in Bermagui at the time which is well set up for virtual training. It has extremely stable satellite internet, an uninterrupted power supply unit and good natural light. I also have additional professional stage lighting that I keep up there when the natural light is not adequate." },
+            { content: "All I need to bring with me is my professional headset mic, a good shirt (as I don’t think my gardening gear will cut it) and makeup. I travel a lot, so I have a separate travel makeup bag ready to go with all the essentials I need." },
+        ]
     },
     {
         sectionImg: programsWorkshopsImgssectionImg3,
@@ -265,6 +369,10 @@ const resourcesData = [
         title: "Final Public Workshops 2022",
         type: "Programs & Workshops",
         slugs: "resource-27",
+        detailsContentData: [
+            { content: "Recently I was conducting a virtual storytelling session for a US client. I was working from our holiday property in Bermagui at the time which is well set up for virtual training. It has extremely stable satellite internet, an uninterrupted power supply unit and good natural light. I also have additional professional stage lighting that I keep up there when the natural light is not adequate." },
+            { content: "All I need to bring with me is my professional headset mic, a good shirt (as I don’t think my gardening gear will cut it) and makeup. I travel a lot, so I have a separate travel makeup bag ready to go with all the essentials I need." },
+        ]
     },
     {
         sectionImg: programsWorkshopsImgssectionImg4,
@@ -272,6 +380,10 @@ const resourcesData = [
         title: "Is your presentation worth a Havana?",
         type: "Programs & Workshops",
         slugs: "resource-28",
+        detailsContentData: [
+            { content: "Recently I was conducting a virtual storytelling session for a US client. I was working from our holiday property in Bermagui at the time which is well set up for virtual training. It has extremely stable satellite internet, an uninterrupted power supply unit and good natural light. I also have additional professional stage lighting that I keep up there when the natural light is not adequate." },
+            { content: "All I need to bring with me is my professional headset mic, a good shirt (as I don’t think my gardening gear will cut it) and makeup. I travel a lot, so I have a separate travel makeup bag ready to go with all the essentials I need." },
+        ]
     },
     {
         sectionImg: programsWorkshopsImgssectionImg5,
@@ -279,6 +391,10 @@ const resourcesData = [
         title: "Business Storytelling Online Program",
         type: "Programs & Workshops",
         slugs: "resource-29",
+        detailsContentData: [
+            { content: "Recently I was conducting a virtual storytelling session for a US client. I was working from our holiday property in Bermagui at the time which is well set up for virtual training. It has extremely stable satellite internet, an uninterrupted power supply unit and good natural light. I also have additional professional stage lighting that I keep up there when the natural light is not adequate." },
+            { content: "All I need to bring with me is my professional headset mic, a good shirt (as I don’t think my gardening gear will cut it) and makeup. I travel a lot, so I have a separate travel makeup bag ready to go with all the essentials I need." },
+        ]
     },
     {
         sectionImg: programsWorkshopsImgssectionImg6,
@@ -286,6 +402,10 @@ const resourcesData = [
         title: "Storytelling for Job Interviews – Online Course",
         type: "Programs & Workshops",
         slugs: "resource-30",
+        detailsContentData: [
+            { content: "Recently I was conducting a virtual storytelling session for a US client. I was working from our holiday property in Bermagui at the time which is well set up for virtual training. It has extremely stable satellite internet, an uninterrupted power supply unit and good natural light. I also have additional professional stage lighting that I keep up there when the natural light is not adequate." },
+            { content: "All I need to bring with me is my professional headset mic, a good shirt (as I don’t think my gardening gear will cut it) and makeup. I travel a lot, so I have a separate travel makeup bag ready to go with all the essentials I need." },
+        ]
     },
     {
         sectionImg: programsWorkshopsImgssectionImg7,
@@ -293,6 +413,10 @@ const resourcesData = [
         title: "Start Spreading the News – Public Workshops 2022",
         type: "Programs & Workshops",
         slugs: "resource-31",
+        detailsContentData: [
+            { content: "Recently I was conducting a virtual storytelling session for a US client. I was working from our holiday property in Bermagui at the time which is well set up for virtual training. It has extremely stable satellite internet, an uninterrupted power supply unit and good natural light. I also have additional professional stage lighting that I keep up there when the natural light is not adequate." },
+            { content: "All I need to bring with me is my professional headset mic, a good shirt (as I don’t think my gardening gear will cut it) and makeup. I travel a lot, so I have a separate travel makeup bag ready to go with all the essentials I need." },
+        ]
     },
     {
         sectionImg: podcastsImgssectionImg1,
@@ -300,6 +424,10 @@ const resourcesData = [
         title: "Ep41: Authentic Leadership Podcast – Dan Stubbs",
         type: "Podcasts",
         slugs: "resource-32",
+        detailsContentData: [
+            { content: "Recently I was conducting a virtual storytelling session for a US client. I was working from our holiday property in Bermagui at the time which is well set up for virtual training. It has extremely stable satellite internet, an uninterrupted power supply unit and good natural light. I also have additional professional stage lighting that I keep up there when the natural light is not adequate." },
+            { content: "All I need to bring with me is my professional headset mic, a good shirt (as I don’t think my gardening gear will cut it) and makeup. I travel a lot, so I have a separate travel makeup bag ready to go with all the essentials I need." },
+        ]
     },
     {
         sectionImg: podcastsImgssectionImg2,
@@ -307,6 +435,10 @@ const resourcesData = [
         title: "Ep40: Authentic Leadership Podcast – Grant McBeath",
         type: "Podcasts",
         slugs: "resource-33",
+        detailsContentData: [
+            { content: "Recently I was conducting a virtual storytelling session for a US client. I was working from our holiday property in Bermagui at the time which is well set up for virtual training. It has extremely stable satellite internet, an uninterrupted power supply unit and good natural light. I also have additional professional stage lighting that I keep up there when the natural light is not adequate." },
+            { content: "All I need to bring with me is my professional headset mic, a good shirt (as I don’t think my gardening gear will cut it) and makeup. I travel a lot, so I have a separate travel makeup bag ready to go with all the essentials I need." },
+        ]
     },
     {
         sectionImg: podcastsImgssectionImg3,
@@ -314,6 +446,10 @@ const resourcesData = [
         title: "Keeping It Real Podcast",
         type: "Podcasts",
         slugs: "resource-34",
+        detailsContentData: [
+            { content: "Recently I was conducting a virtual storytelling session for a US client. I was working from our holiday property in Bermagui at the time which is well set up for virtual training. It has extremely stable satellite internet, an uninterrupted power supply unit and good natural light. I also have additional professional stage lighting that I keep up there when the natural light is not adequate." },
+            { content: "All I need to bring with me is my professional headset mic, a good shirt (as I don’t think my gardening gear will cut it) and makeup. I travel a lot, so I have a separate travel makeup bag ready to go with all the essentials I need." },
+        ]
     },
     {
         sectionImg: podcastsImgssectionImg4,
@@ -321,6 +457,10 @@ const resourcesData = [
         title: "Ep42: Authentic Leadership Podcast – James Bell",
         type: "Podcasts",
         slugs: "resource-35",
+        detailsContentData: [
+            { content: "Recently I was conducting a virtual storytelling session for a US client. I was working from our holiday property in Bermagui at the time which is well set up for virtual training. It has extremely stable satellite internet, an uninterrupted power supply unit and good natural light. I also have additional professional stage lighting that I keep up there when the natural light is not adequate." },
+            { content: "All I need to bring with me is my professional headset mic, a good shirt (as I don’t think my gardening gear will cut it) and makeup. I travel a lot, so I have a separate travel makeup bag ready to go with all the essentials I need." },
+        ]
     },
     {
         sectionImg: podcastsImgssectionImg5,
@@ -328,6 +468,10 @@ const resourcesData = [
         title: "Ep38: Authentic Leadership Podcast – Tim Watsford",
         type: "Podcasts",
         slugs: "resource-36",
+        detailsContentData: [
+            { content: "Recently I was conducting a virtual storytelling session for a US client. I was working from our holiday property in Bermagui at the time which is well set up for virtual training. It has extremely stable satellite internet, an uninterrupted power supply unit and good natural light. I also have additional professional stage lighting that I keep up there when the natural light is not adequate." },
+            { content: "All I need to bring with me is my professional headset mic, a good shirt (as I don’t think my gardening gear will cut it) and makeup. I travel a lot, so I have a separate travel makeup bag ready to go with all the essentials I need." },
+        ]
     },
     {
         sectionImg: podcastsImgssectionImg6,
@@ -335,6 +479,10 @@ const resourcesData = [
         title: "Ep37: Authentic Leadership Podcast – Margaret Cole",
         type: "Podcasts",
         slugs: "resource-37",
+        detailsContentData: [
+            { content: "Recently I was conducting a virtual storytelling session for a US client. I was working from our holiday property in Bermagui at the time which is well set up for virtual training. It has extremely stable satellite internet, an uninterrupted power supply unit and good natural light. I also have additional professional stage lighting that I keep up there when the natural light is not adequate." },
+            { content: "All I need to bring with me is my professional headset mic, a good shirt (as I don’t think my gardening gear will cut it) and makeup. I travel a lot, so I have a separate travel makeup bag ready to go with all the essentials I need." },
+        ]
     },
     {
         sectionImg: podcastsImgssectionImg7,
@@ -342,6 +490,10 @@ const resourcesData = [
         title: "Ep36: Authentic Leadership Podcast – Deb Ganderton",
         type: "Podcasts",
         slugs: "resource-38",
+        detailsContentData: [
+            { content: "Recently I was conducting a virtual storytelling session for a US client. I was working from our holiday property in Bermagui at the time which is well set up for virtual training. It has extremely stable satellite internet, an uninterrupted power supply unit and good natural light. I also have additional professional stage lighting that I keep up there when the natural light is not adequate." },
+            { content: "All I need to bring with me is my professional headset mic, a good shirt (as I don’t think my gardening gear will cut it) and makeup. I travel a lot, so I have a separate travel makeup bag ready to go with all the essentials I need." },
+        ]
     },
     {
         sectionImg: podcastsImgssectionImg8,
@@ -349,6 +501,10 @@ const resourcesData = [
         title: "Ep39: Authentic Leadership Podcast – Julie Rynski",
         type: "Podcasts",
         slugs: "resource-39",
+        detailsContentData: [
+            { content: "Recently I was conducting a virtual storytelling session for a US client. I was working from our holiday property in Bermagui at the time which is well set up for virtual training. It has extremely stable satellite internet, an uninterrupted power supply unit and good natural light. I also have additional professional stage lighting that I keep up there when the natural light is not adequate." },
+            { content: "All I need to bring with me is my professional headset mic, a good shirt (as I don’t think my gardening gear will cut it) and makeup. I travel a lot, so I have a separate travel makeup bag ready to go with all the essentials I need." },
+        ]
     },
     {
         sectionImg: whitePapersImgssectionImg1,
@@ -356,6 +512,10 @@ const resourcesData = [
         title: "The Problem with Organisational Change",
         type: "White Papers",
         slugs: "resource-40",
+        detailsContentData: [
+            { content: "Recently I was conducting a virtual storytelling session for a US client. I was working from our holiday property in Bermagui at the time which is well set up for virtual training. It has extremely stable satellite internet, an uninterrupted power supply unit and good natural light. I also have additional professional stage lighting that I keep up there when the natural light is not adequate." },
+            { content: "All I need to bring with me is my professional headset mic, a good shirt (as I don’t think my gardening gear will cut it) and makeup. I travel a lot, so I have a separate travel makeup bag ready to go with all the essentials I need." },
+        ]
     },
     {
         sectionImg: whitePapersImgssectionImg2,
@@ -363,6 +523,10 @@ const resourcesData = [
         title: "Magnetic Stories White Paper",
         type: "White Papers",
         slugs: "resource-41",
+        detailsContentData: [
+            { content: "Recently I was conducting a virtual storytelling session for a US client. I was working from our holiday property in Bermagui at the time which is well set up for virtual training. It has extremely stable satellite internet, an uninterrupted power supply unit and good natural light. I also have additional professional stage lighting that I keep up there when the natural light is not adequate." },
+            { content: "All I need to bring with me is my professional headset mic, a good shirt (as I don’t think my gardening gear will cut it) and makeup. I travel a lot, so I have a separate travel makeup bag ready to go with all the essentials I need." },
+        ]
     },
     {
         sectionImg: whitePapersImgssectionImg3,
@@ -370,6 +534,10 @@ const resourcesData = [
         title: "Real Communication White Paper",
         type: "White Papers",
         slugs: "resource-42",
+        detailsContentData: [
+            { content: "Recently I was conducting a virtual storytelling session for a US client. I was working from our holiday property in Bermagui at the time which is well set up for virtual training. It has extremely stable satellite internet, an uninterrupted power supply unit and good natural light. I also have additional professional stage lighting that I keep up there when the natural light is not adequate." },
+            { content: "All I need to bring with me is my professional headset mic, a good shirt (as I don’t think my gardening gear will cut it) and makeup. I travel a lot, so I have a separate travel makeup bag ready to go with all the essentials I need." },
+        ]
     },
     {
         sectionImg: whitePapersImgssectionImg4,
@@ -377,6 +545,10 @@ const resourcesData = [
         title: "Demystifying Thought Leadership White Paper",
         type: "White Papers",
         slugs: "resource-43",
+        detailsContentData: [
+            { content: "Recently I was conducting a virtual storytelling session for a US client. I was working from our holiday property in Bermagui at the time which is well set up for virtual training. It has extremely stable satellite internet, an uninterrupted power supply unit and good natural light. I also have additional professional stage lighting that I keep up there when the natural light is not adequate." },
+            { content: "All I need to bring with me is my professional headset mic, a good shirt (as I don’t think my gardening gear will cut it) and makeup. I travel a lot, so I have a separate travel makeup bag ready to go with all the essentials I need." },
+        ]
     },
     {
         sectionImg: whitePapersImgssectionImg5,
@@ -384,6 +556,10 @@ const resourcesData = [
         title: "The Evolution of Organisational Change White Paper",
         type: "White Papers",
         slugs: "resource-44",
+        detailsContentData: [
+            { content: "Recently I was conducting a virtual storytelling session for a US client. I was working from our holiday property in Bermagui at the time which is well set up for virtual training. It has extremely stable satellite internet, an uninterrupted power supply unit and good natural light. I also have additional professional stage lighting that I keep up there when the natural light is not adequate." },
+            { content: "All I need to bring with me is my professional headset mic, a good shirt (as I don’t think my gardening gear will cut it) and makeup. I travel a lot, so I have a separate travel makeup bag ready to go with all the essentials I need." },
+        ]
     },
     {
         sectionImg: whitePapersImgssectionImg6,
@@ -391,6 +567,10 @@ const resourcesData = [
         title: "The Science of Storytelling White Paper",
         type: "White Papers",
         slugs: "resource-45",
+        detailsContentData: [
+            { content: "Recently I was conducting a virtual storytelling session for a US client. I was working from our holiday property in Bermagui at the time which is well set up for virtual training. It has extremely stable satellite internet, an uninterrupted power supply unit and good natural light. I also have additional professional stage lighting that I keep up there when the natural light is not adequate." },
+            { content: "All I need to bring with me is my professional headset mic, a good shirt (as I don’t think my gardening gear will cut it) and makeup. I travel a lot, so I have a separate travel makeup bag ready to go with all the essentials I need." },
+        ]
     },
     {
         sectionImg: whitePapersImgssectionImg7,
@@ -398,6 +578,10 @@ const resourcesData = [
         title: "Business Storytelling White paper",
         type: "White Papers",
         slugs: "resource-46",
+        detailsContentData: [
+            { content: "Recently I was conducting a virtual storytelling session for a US client. I was working from our holiday property in Bermagui at the time which is well set up for virtual training. It has extremely stable satellite internet, an uninterrupted power supply unit and good natural light. I also have additional professional stage lighting that I keep up there when the natural light is not adequate." },
+            { content: "All I need to bring with me is my professional headset mic, a good shirt (as I don’t think my gardening gear will cut it) and makeup. I travel a lot, so I have a separate travel makeup bag ready to go with all the essentials I need." },
+        ]
     },
     {
         sectionImg: storytellingResourcesImgssectionImg1,
@@ -405,6 +589,10 @@ const resourcesData = [
         title: "The Four Types of Stories You Need In Business",
         type: "Storytelling Resources",
         slugs: "resource-47",
+        detailsContentData: [
+            { content: "Recently I was conducting a virtual storytelling session for a US client. I was working from our holiday property in Bermagui at the time which is well set up for virtual training. It has extremely stable satellite internet, an uninterrupted power supply unit and good natural light. I also have additional professional stage lighting that I keep up there when the natural light is not adequate." },
+            { content: "All I need to bring with me is my professional headset mic, a good shirt (as I don’t think my gardening gear will cut it) and makeup. I travel a lot, so I have a separate travel makeup bag ready to go with all the essentials I need." },
+        ]
     },
     {
         sectionImg: storytellingResourcesImgssectionImg2,
@@ -412,6 +600,10 @@ const resourcesData = [
         title: "Keep Fake News Out of Motivational Stories",
         type: "Storytelling Resources",
         slugs: "resource-48",
+        detailsContentData: [
+            { content: "Recently I was conducting a virtual storytelling session for a US client. I was working from our holiday property in Bermagui at the time which is well set up for virtual training. It has extremely stable satellite internet, an uninterrupted power supply unit and good natural light. I also have additional professional stage lighting that I keep up there when the natural light is not adequate." },
+            { content: "All I need to bring with me is my professional headset mic, a good shirt (as I don’t think my gardening gear will cut it) and makeup. I travel a lot, so I have a separate travel makeup bag ready to go with all the essentials I need." },
+        ]
     },
     {
         sectionImg: storytellingResourcesImgssectionImg3,
@@ -419,6 +611,10 @@ const resourcesData = [
         title: "Write Your True Story Series",
         type: "Storytelling Resources",
         slugs: "resource-49",
+        detailsContentData: [
+            { content: "Recently I was conducting a virtual storytelling session for a US client. I was working from our holiday property in Bermagui at the time which is well set up for virtual training. It has extremely stable satellite internet, an uninterrupted power supply unit and good natural light. I also have additional professional stage lighting that I keep up there when the natural light is not adequate." },
+            { content: "All I need to bring with me is my professional headset mic, a good shirt (as I don’t think my gardening gear will cut it) and makeup. I travel a lot, so I have a separate travel makeup bag ready to go with all the essentials I need." },
+        ]
     },
     {
         sectionImg: storytellingResourcesImgssectionImg4,
@@ -426,6 +622,10 @@ const resourcesData = [
         title: "Spark Magazine – Why Authentic Communication is Needed Now",
         type: "Storytelling Resources",
         slugs: "resource-50",
+        detailsContentData: [
+            { content: "Recently I was conducting a virtual storytelling session for a US client. I was working from our holiday property in Bermagui at the time which is well set up for virtual training. It has extremely stable satellite internet, an uninterrupted power supply unit and good natural light. I also have additional professional stage lighting that I keep up there when the natural light is not adequate." },
+            { content: "All I need to bring with me is my professional headset mic, a good shirt (as I don’t think my gardening gear will cut it) and makeup. I travel a lot, so I have a separate travel makeup bag ready to go with all the essentials I need." },
+        ]
     },
     {
         sectionImg: storytellingResourcesImgssectionImg5,
@@ -433,6 +633,10 @@ const resourcesData = [
         title: "Gabrielle Dolan Biography",
         type: "Storytelling Resources",
         slugs: "resource-51",
+        detailsContentData: [
+            { content: "Recently I was conducting a virtual storytelling session for a US client. I was working from our holiday property in Bermagui at the time which is well set up for virtual training. It has extremely stable satellite internet, an uninterrupted power supply unit and good natural light. I also have additional professional stage lighting that I keep up there when the natural light is not adequate." },
+            { content: "All I need to bring with me is my professional headset mic, a good shirt (as I don’t think my gardening gear will cut it) and makeup. I travel a lot, so I have a separate travel makeup bag ready to go with all the essentials I need." },
+        ]
     },
     {
         sectionImg: storytellingResourcesImgssectionImg6,
@@ -440,6 +644,10 @@ const resourcesData = [
         title: "The Science of Storytelling White Paper",
         type: "Storytelling Resources",
         slugs: "resource-52",
+        detailsContentData: [
+            { content: "Recently I was conducting a virtual storytelling session for a US client. I was working from our holiday property in Bermagui at the time which is well set up for virtual training. It has extremely stable satellite internet, an uninterrupted power supply unit and good natural light. I also have additional professional stage lighting that I keep up there when the natural light is not adequate." },
+            { content: "All I need to bring with me is my professional headset mic, a good shirt (as I don’t think my gardening gear will cut it) and makeup. I travel a lot, so I have a separate travel makeup bag ready to go with all the essentials I need." },
+        ]
     },
     {
         sectionImg: storytellingResourcesImgssectionImg7,
@@ -447,6 +655,10 @@ const resourcesData = [
         title: "Critical Success Factors when implementing Business Storytelling",
         type: "Storytelling Resources",
         slugs: "resource-53",
+        detailsContentData: [
+            { content: "Recently I was conducting a virtual storytelling session for a US client. I was working from our holiday property in Bermagui at the time which is well set up for virtual training. It has extremely stable satellite internet, an uninterrupted power supply unit and good natural light. I also have additional professional stage lighting that I keep up there when the natural light is not adequate." },
+            { content: "All I need to bring with me is my professional headset mic, a good shirt (as I don’t think my gardening gear will cut it) and makeup. I travel a lot, so I have a separate travel makeup bag ready to go with all the essentials I need." },
+        ]
     },
     {
         sectionImg: storytellingResourcesImgssectionImg8,
@@ -454,6 +666,10 @@ const resourcesData = [
         title: "Four Types of Storytellers",
         type: "Storytelling Resources",
         slugs: "resource-54",
+        detailsContentData: [
+            { content: "Recently I was conducting a virtual storytelling session for a US client. I was working from our holiday property in Bermagui at the time which is well set up for virtual training. It has extremely stable satellite internet, an uninterrupted power supply unit and good natural light. I also have additional professional stage lighting that I keep up there when the natural light is not adequate." },
+            { content: "All I need to bring with me is my professional headset mic, a good shirt (as I don’t think my gardening gear will cut it) and makeup. I travel a lot, so I have a separate travel makeup bag ready to go with all the essentials I need." },
+        ]
     },
     {
         sectionImg: booksImgssectionImg1,
@@ -461,6 +677,10 @@ const resourcesData = [
         title: "Bullet Points Kill",
         type: "Books",
         slugs: "resource-55",
+        detailsContentData: [
+            { content: "Recently I was conducting a virtual storytelling session for a US client. I was working from our holiday property in Bermagui at the time which is well set up for virtual training. It has extremely stable satellite internet, an uninterrupted power supply unit and good natural light. I also have additional professional stage lighting that I keep up there when the natural light is not adequate." },
+            { content: "All I need to bring with me is my professional headset mic, a good shirt (as I don’t think my gardening gear will cut it) and makeup. I travel a lot, so I have a separate travel makeup bag ready to go with all the essentials I need." },
+        ]
     },
     {
         sectionImg: booksImgssectionImg2,
@@ -468,6 +688,10 @@ const resourcesData = [
         title: "Real Communication",
         type: "Books",
         slugs: "resource-56",
+        detailsContentData: [
+            { content: "Recently I was conducting a virtual storytelling session for a US client. I was working from our holiday property in Bermagui at the time which is well set up for virtual training. It has extremely stable satellite internet, an uninterrupted power supply unit and good natural light. I also have additional professional stage lighting that I keep up there when the natural light is not adequate." },
+            { content: "All I need to bring with me is my professional headset mic, a good shirt (as I don’t think my gardening gear will cut it) and makeup. I travel a lot, so I have a separate travel makeup bag ready to go with all the essentials I need." },
+        ]
     },
     {
         sectionImg: booksImgssectionImg3,
@@ -475,6 +699,10 @@ const resourcesData = [
         title: "My Latest Book is Now Available",
         type: "Books",
         slugs: "resource-57",
+        detailsContentData: [
+            { content: "Recently I was conducting a virtual storytelling session for a US client. I was working from our holiday property in Bermagui at the time which is well set up for virtual training. It has extremely stable satellite internet, an uninterrupted power supply unit and good natural light. I also have additional professional stage lighting that I keep up there when the natural light is not adequate." },
+            { content: "All I need to bring with me is my professional headset mic, a good shirt (as I don’t think my gardening gear will cut it) and makeup. I travel a lot, so I have a separate travel makeup bag ready to go with all the essentials I need." },
+        ]
     },
     {
         sectionImg: booksImgssectionImg4,
@@ -482,6 +710,10 @@ const resourcesData = [
         title: "Magnetic Stories",
         type: "Books",
         slugs: "resource-58",
+        detailsContentData: [
+            { content: "Recently I was conducting a virtual storytelling session for a US client. I was working from our holiday property in Bermagui at the time which is well set up for virtual training. It has extremely stable satellite internet, an uninterrupted power supply unit and good natural light. I also have additional professional stage lighting that I keep up there when the natural light is not adequate." },
+            { content: "All I need to bring with me is my professional headset mic, a good shirt (as I don’t think my gardening gear will cut it) and makeup. I travel a lot, so I have a separate travel makeup bag ready to go with all the essentials I need." },
+        ]
     },
     {
         sectionImg: booksImgssectionImg5,
@@ -489,6 +721,10 @@ const resourcesData = [
         title: "Hooked",
         type: "Books",
         slugs: "resource-59",
+        detailsContentData: [
+            { content: "Recently I was conducting a virtual storytelling session for a US client. I was working from our holiday property in Bermagui at the time which is well set up for virtual training. It has extremely stable satellite internet, an uninterrupted power supply unit and good natural light. I also have additional professional stage lighting that I keep up there when the natural light is not adequate." },
+            { content: "All I need to bring with me is my professional headset mic, a good shirt (as I don’t think my gardening gear will cut it) and makeup. I travel a lot, so I have a separate travel makeup bag ready to go with all the essentials I need." },
+        ]
     },
     {
         sectionImg: booksImgssectionImg6,
@@ -496,6 +732,10 @@ const resourcesData = [
         title: "Ignite",
         type: "Books",
         slugs: "resource-60",
+        detailsContentData: [
+            { content: "Recently I was conducting a virtual storytelling session for a US client. I was working from our holiday property in Bermagui at the time which is well set up for virtual training. It has extremely stable satellite internet, an uninterrupted power supply unit and good natural light. I also have additional professional stage lighting that I keep up there when the natural light is not adequate." },
+            { content: "All I need to bring with me is my professional headset mic, a good shirt (as I don’t think my gardening gear will cut it) and makeup. I travel a lot, so I have a separate travel makeup bag ready to go with all the essentials I need." },
+        ]
     },
     {
         sectionImg: booksImgssectionImg7,
@@ -503,6 +743,10 @@ const resourcesData = [
         title: "Stories for Work",
         type: "Books",
         slugs: "resource-61",
+        detailsContentData: [
+            { content: "Recently I was conducting a virtual storytelling session for a US client. I was working from our holiday property in Bermagui at the time which is well set up for virtual training. It has extremely stable satellite internet, an uninterrupted power supply unit and good natural light. I also have additional professional stage lighting that I keep up there when the natural light is not adequate." },
+            { content: "All I need to bring with me is my professional headset mic, a good shirt (as I don’t think my gardening gear will cut it) and makeup. I travel a lot, so I have a separate travel makeup bag ready to go with all the essentials I need." },
+        ]
     },
     {
         sectionImg: booksImgssectionImg8,
@@ -510,6 +754,10 @@ const resourcesData = [
         title: "e-Book: Storytelling for Job Interviews",
         type: "Books",
         slugs: "resource-62",
+        detailsContentData: [
+            { content: "Recently I was conducting a virtual storytelling session for a US client. I was working from our holiday property in Bermagui at the time which is well set up for virtual training. It has extremely stable satellite internet, an uninterrupted power supply unit and good natural light. I also have additional professional stage lighting that I keep up there when the natural light is not adequate." },
+            { content: "All I need to bring with me is my professional headset mic, a good shirt (as I don’t think my gardening gear will cut it) and makeup. I travel a lot, so I have a separate travel makeup bag ready to go with all the essentials I need." },
+        ]
     },
     {
         sectionImg: interviewsImgssectionImg1,
@@ -517,6 +765,10 @@ const resourcesData = [
         title: "Studio 10 – Morning Show: Guest interview on Jargon",
         type: "Interviews",
         slugs: "resource-63",
+        detailsContentData: [
+            { content: "Recently I was conducting a virtual storytelling session for a US client. I was working from our holiday property in Bermagui at the time which is well set up for virtual training. It has extremely stable satellite internet, an uninterrupted power supply unit and good natural light. I also have additional professional stage lighting that I keep up there when the natural light is not adequate." },
+            { content: "All I need to bring with me is my professional headset mic, a good shirt (as I don’t think my gardening gear will cut it) and makeup. I travel a lot, so I have a separate travel makeup bag ready to go with all the essentials I need." },
+        ]
     },
     {
         sectionImg: interviewsImgssectionImg2,
@@ -524,6 +776,10 @@ const resourcesData = [
         title: "Brand Land Podcast – Lucid Press",
         type: "Interviews",
         slugs: "resource-64",
+        detailsContentData: [
+            { content: "Recently I was conducting a virtual storytelling session for a US client. I was working from our holiday property in Bermagui at the time which is well set up for virtual training. It has extremely stable satellite internet, an uninterrupted power supply unit and good natural light. I also have additional professional stage lighting that I keep up there when the natural light is not adequate." },
+            { content: "All I need to bring with me is my professional headset mic, a good shirt (as I don’t think my gardening gear will cut it) and makeup. I travel a lot, so I have a separate travel makeup bag ready to go with all the essentials I need." },
+        ]
     },
     {
         sectionImg: interviewsImgssectionImg3,
@@ -531,6 +787,10 @@ const resourcesData = [
         title: "International Institute of Directors & Managers – Brand Stories Interview",
         type: "Interviews",
         slugs: "resource-65",
+        detailsContentData: [
+            { content: "Recently I was conducting a virtual storytelling session for a US client. I was working from our holiday property in Bermagui at the time which is well set up for virtual training. It has extremely stable satellite internet, an uninterrupted power supply unit and good natural light. I also have additional professional stage lighting that I keep up there when the natural light is not adequate." },
+            { content: "All I need to bring with me is my professional headset mic, a good shirt (as I don’t think my gardening gear will cut it) and makeup. I travel a lot, so I have a separate travel makeup bag ready to go with all the essentials I need." },
+        ]
     },
     {
         sectionImg: interviewsImgssectionImg4,
@@ -538,6 +798,10 @@ const resourcesData = [
         title: "For Leaders Podcast",
         type: "Interviews",
         slugs: "resource-66",
+        detailsContentData: [
+            { content: "Recently I was conducting a virtual storytelling session for a US client. I was working from our holiday property in Bermagui at the time which is well set up for virtual training. It has extremely stable satellite internet, an uninterrupted power supply unit and good natural light. I also have additional professional stage lighting that I keep up there when the natural light is not adequate." },
+            { content: "All I need to bring with me is my professional headset mic, a good shirt (as I don’t think my gardening gear will cut it) and makeup. I travel a lot, so I have a separate travel makeup bag ready to go with all the essentials I need." },
+        ]
     },
     {
         sectionImg: interviewsImgssectionImg5,
@@ -545,6 +809,10 @@ const resourcesData = [
         title: "The Savvy Dentist",
         type: "Interviews",
         slugs: "resource-67",
+        detailsContentData: [
+            { content: "Recently I was conducting a virtual storytelling session for a US client. I was working from our holiday property in Bermagui at the time which is well set up for virtual training. It has extremely stable satellite internet, an uninterrupted power supply unit and good natural light. I also have additional professional stage lighting that I keep up there when the natural light is not adequate." },
+            { content: "All I need to bring with me is my professional headset mic, a good shirt (as I don’t think my gardening gear will cut it) and makeup. I travel a lot, so I have a separate travel makeup bag ready to go with all the essentials I need." },
+        ]
     },
     {
         sectionImg: interviewsImgssectionImg6,
@@ -552,6 +820,10 @@ const resourcesData = [
         title: "Lady Leadership with Sam McIntyre",
         type: "Interviews",
         slugs: "resource-68",
+        detailsContentData: [
+            { content: "Recently I was conducting a virtual storytelling session for a US client. I was working from our holiday property in Bermagui at the time which is well set up for virtual training. It has extremely stable satellite internet, an uninterrupted power supply unit and good natural light. I also have additional professional stage lighting that I keep up there when the natural light is not adequate." },
+            { content: "All I need to bring with me is my professional headset mic, a good shirt (as I don’t think my gardening gear will cut it) and makeup. I travel a lot, so I have a separate travel makeup bag ready to go with all the essentials I need." },
+        ]
     },
     {
         sectionImg: interviewsImgssectionImg7,
@@ -559,6 +831,10 @@ const resourcesData = [
         title: "Business Essentials Daily",
         type: "Interviews",
         slugs: "resource-69",
+        detailsContentData: [
+            { content: "Recently I was conducting a virtual storytelling session for a US client. I was working from our holiday property in Bermagui at the time which is well set up for virtual training. It has extremely stable satellite internet, an uninterrupted power supply unit and good natural light. I also have additional professional stage lighting that I keep up there when the natural light is not adequate." },
+            { content: "All I need to bring with me is my professional headset mic, a good shirt (as I don’t think my gardening gear will cut it) and makeup. I travel a lot, so I have a separate travel makeup bag ready to go with all the essentials I need." },
+        ]
     },
     {
         sectionImg: interviewsImgssectionImg8,
@@ -566,6 +842,10 @@ const resourcesData = [
         title: "Ultra106five – Afternoons",
         type: "Interviews",
         slugs: "resource-70",
+        detailsContentData: [
+            { content: "Recently I was conducting a virtual storytelling session for a US client. I was working from our holiday property in Bermagui at the time which is well set up for virtual training. It has extremely stable satellite internet, an uninterrupted power supply unit and good natural light. I also have additional professional stage lighting that I keep up there when the natural light is not adequate." },
+            { content: "All I need to bring with me is my professional headset mic, a good shirt (as I don’t think my gardening gear will cut it) and makeup. I travel a lot, so I have a separate travel makeup bag ready to go with all the essentials I need." },
+        ]
     },
 ]
 

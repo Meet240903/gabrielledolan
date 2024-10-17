@@ -26,3 +26,25 @@
   color: gray;
   font-family: "Playfair Display", serif;
 }
+
+.resources-details-page-section-left-inner-content {
+  font-size: 16px !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue" !important;
+  color: #000 !important;
+  font-weight: normal !important;
+}
+
+@media (max-width: 768px) {
+  .resources-details-page-section-container {
+    padding: 7rem 0;
+    height: 100%;
+  }
+  .resources-details-page-section-left-inner-content {
+    text-align: justify;
+  }
+
+  .resources-details-page-section-left-content h1 {
+    font-size: 40px;
+  }
+}

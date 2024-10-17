@@ -164,6 +164,7 @@
   }
   .resources-page-section-filter-sidebar {
     left: -150%;
+    width: 100%;
   }
   .resources-page-section-content-boxs {
     padding: 20px;

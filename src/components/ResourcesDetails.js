@@ -14,6 +14,11 @@ const ResourcesDetails = () => {
                         <small>{resourceData?.date}</small>
                         <h1>{resourceData?.title}</h1>
                         <p>{resourceData?.type}</p>
+                        {
+                            resourceData?.detailsContentData?.map((data, index) => (
+                                <p className='resources-details-page-section-left-inner-content' key={index}>{data?.content}</p>
+                            ))
+                        }
                     </div>
                     <div className='col-md-6 resources-details-page-section-right-content'>
                         <img src={resourceData?.sectionImg} className='img-fluid' alt='section-img' />

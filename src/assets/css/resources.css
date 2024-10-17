@@ -153,10 +153,10 @@
   .resources-page-section-content {
     grid-template-columns: 1fr;
   }
-  .resources-page-section-title{
+  .resources-page-section-title {
     margin-top: 4rem;
   }
-  .resources-page-section-title h1{
+  .resources-page-section-title h1 {
     font-size: 30px;
   }
   .resources-page-section-container {
@@ -165,12 +165,13 @@
   .resources-page-section-filter-sidebar {
     left: -150%;
     width: 100%;
+    height: 100%;
   }
   .resources-page-section-content-boxs {
     padding: 20px;
     border: 0;
   }
-  .resources-page-section-search-button{
+  .resources-page-section-search-button {
     font-size: 14px;
     top: 80px;
     padding: 5px 10px 5px 15px;
